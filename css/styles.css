@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'Be Vietnam Pro';
+    src: url('../public/fonts/BeVietnamPro-Regular.eot');
+    src: local('Be Vietnam Pro Regular'), local('BeVietnamPro-Regular'),
+        url('../public/fonts/BeVietnamPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../public/fonts/BeVietnamPro-Regular.woff2') format('woff2'),
+        url('../public/fonts/BeVietnamPro-Regular.woff') format('woff'),
+        url('../public/fonts/BeVietnamPro-Regular.ttf') format('truetype');
+  }
+
+  @layer base {
+    html {
+        font-family: 'Be Vietnam Pro', sans-serif;
+    }
+    .dark .dark\:bg-gray-900 {
+      background-color: rgba(0,0,0) !important;
+    }
+  }

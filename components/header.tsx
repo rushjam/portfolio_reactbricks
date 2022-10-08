@@ -6,16 +6,17 @@ const Header: React.FC = () => (
     <div className="max-w-5xl mx-auto px-6">
       <div className="w-full flex flex-col sm:flex-row justify-center sm:justify-between items-center">
         <div className="flex flex-col sm:flex-row items-center mb-4 sm:mb-0">
-          <h1>RR</h1>
+          {/* <h1>RR</h1> */}
+          <img src="/logo.png" alt="logo" />
           <div className="sm:ml-8 flex space-x-5 text-center">
             <Link href="/">
               <a className="text-gray-500 hover:text-pink-700">Home</a>
             </Link>
-            <Link href="/about-us">
-              <a className="text-gray-500 hover:text-pink-700">About us</a>
-            </Link>
             <Link href="/blog">
               <a className="text-gray-500 hover:text-pink-700">Blog</a>
+            </Link>
+            <Link href="/about-us">
+              <a className="text-gray-500 hover:text-pink-700">About us</a>
             </Link>
           </div>
         </div>
